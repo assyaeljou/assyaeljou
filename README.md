@@ -1,22 +1,14 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="assyaeljou: IT Engineer, PhD Student in Software Quality, QA and AI Engineering" width="100%">
+  <img src="assets/banner.svg" alt="assyaeljou. IT Engineer, PhD Student in Software Quality, QA and AI Engineering. I build and test software, and I study how to predict its quality. My work sits between QA engineering and applied AI: agent-based testing tools, and research on explainable machine learning for software quality prediction in CI/CD pipelines." width="100%">
 </div>
 
-<div align="center">
-
-**IT Engineer &nbsp;|&nbsp; PhD Student in Software Quality &nbsp;|&nbsp; QA & AI Engineering**
-
-I build and test software, and I study how to predict its quality.<br>
-My work sits between QA engineering and applied AI: agent-based testing tools, and research on<br>
-explainable machine learning for software quality prediction in CI/CD pipelines.
-
-<a href="#about">About</a> &nbsp;·&nbsp;
-<a href="#technical-skills">Skills</a> &nbsp;·&nbsp;
-<a href="#featured-projects">Projects</a> &nbsp;·&nbsp;
-<a href="#research-interests">Research</a> &nbsp;·&nbsp;
-<a href="#contact">Contact</a>
-
-</div>
+<p align="center">
+  <a href="#about"><img src="assets/nav/about.svg" alt="About" height="36"></a>
+  <a href="#technical-skills"><img src="assets/nav/skills.svg" alt="Skills" height="36"></a>
+  <a href="#featured-projects"><img src="assets/nav/projects.svg" alt="Projects" height="36"></a>
+  <a href="#research-interests"><img src="assets/nav/research.svg" alt="Research" height="36"></a>
+  <a href="#contact"><img src="assets/nav/contact.svg" alt="Contact" height="36"></a>
+</p>
 
 <img src="assets/divider.svg" alt="" width="100%">
 

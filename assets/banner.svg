@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="t d">
   <title id="t">assyaeljou: IT Engineer, PhD Student in Software Quality, QA and AI Engineering</title>
-  <desc id="d">Dark navy banner with a subtle CI/CD pipeline motif: commit, build, test, predict, explain.</desc>
+  <desc id="d">I build and test software, and I study how to predict its quality. My work sits between QA engineering and applied AI: agent-based testing tools, and research on explainable machine learning for software quality prediction in CI/CD pipelines.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
       <stop offset="1" stop-color="#121a33"/>
     </linearGradient>
-    <radialGradient id="glowBlue" cx="0.12" cy="0.2" r="0.55">
+    <radialGradient id="glowBlue" cx="0.12" cy="0.15" r="0.55">
       <stop offset="0" stop-color="#2f6bff" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowPurple" cx="0.92" cy="0.85" r="0.5">
+    <radialGradient id="glowPurple" cx="0.92" cy="0.9" r="0.5">
       <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
@@ -19,38 +19,54 @@
       <stop offset="0.5" stop-color="#3b82f6" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.75"/>
     </linearGradient>
+    <linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="58" x2="0" y2="318">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="700" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#2a3558" stroke-opacity="0.35" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect width="1200" height="320" fill="url(#glowBlue)"/>
-  <rect width="1200" height="320" fill="url(#glowPurple)"/>
+  <rect width="1200" height="430" fill="url(#bg)"/>
+  <rect width="1200" height="430" fill="url(#grid)"/>
+  <rect width="1200" height="430" fill="url(#glowBlue)"/>
+  <rect width="1200" height="430" fill="url(#glowPurple)"/>
+
+  <!-- Accent bar -->
+  <rect x="56" y="58" width="3" height="260" rx="1.5" fill="url(#bar)"/>
 
   <!-- Text block -->
   <g font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
-    <text x="80" y="82" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#4f8cff" letter-spacing="1">software quality / qa / ai engineering</text>
-    <text x="80" y="146" font-size="58" font-weight="700" fill="#f0f6fc">assyaeljou</text>
-    <text x="80" y="188" font-size="22" fill="#c9d1d9">IT Engineer  |  PhD Student in Software Quality  |  QA &amp; AI Engineering</text>
-    <text x="80" y="218" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#8b949e">research: explainable AI for software quality prediction in CI/CD pipelines</text>
+    <text x="84" y="78" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" fill="#4f8cff" letter-spacing="1">software quality / qa / ai engineering</text>
+    <text x="82" y="146" font-size="60" font-weight="700" fill="#f0f6fc">assyaeljou</text>
+    <text x="84" y="188" font-size="24" font-weight="600" fill="#e6edf3">IT Engineer  |  PhD Student in Software Quality  |  QA &amp; AI Engineering</text>
+    <rect x="84" y="208" width="620" height="1.5" fill="url(#rule)"/>
+    <g font-size="20" fill="#aab4c3">
+      <text x="84" y="244">I build and test software, and I study how to predict its quality.</text>
+      <text x="84" y="274">My work sits between QA engineering and applied AI: agent-based testing tools,</text>
+      <text x="84" y="304">and research on explainable machine learning for software quality prediction in CI/CD pipelines.</text>
+    </g>
   </g>
 
   <!-- Pipeline motif -->
   <g>
-    <line x1="100" y1="268" x2="1100" y2="268" stroke="url(#pipe)" stroke-width="2"/>
-    <circle cx="100" cy="268" r="6" fill="#0b1220" stroke="#3b82f6" stroke-width="2"/>
-    <circle cx="350" cy="268" r="6" fill="#0b1220" stroke="#3b82f6" stroke-width="2"/>
-    <circle cx="600" cy="268" r="6" fill="#0b1220" stroke="#4f8cff" stroke-width="2"/>
-    <circle cx="850" cy="268" r="6" fill="#0b1220" stroke="#7c6ff6" stroke-width="2"/>
-    <circle cx="1100" cy="268" r="7" fill="#8b5cf6" stroke="#a78bfa" stroke-width="2"/>
+    <line x1="100" y1="368" x2="1100" y2="368" stroke="url(#pipe)" stroke-width="2"/>
+    <circle cx="100" cy="368" r="6" fill="#0b1220" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="350" cy="368" r="6" fill="#0b1220" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="600" cy="368" r="6" fill="#0b1220" stroke="#4f8cff" stroke-width="2"/>
+    <circle cx="850" cy="368" r="6" fill="#0b1220" stroke="#7c6ff6" stroke-width="2"/>
+    <circle cx="1100" cy="368" r="7" fill="#8b5cf6" stroke="#a78bfa" stroke-width="2"/>
     <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6e7f9d" text-anchor="middle">
-      <text x="100" y="294">commit</text>
-      <text x="350" y="294">build</text>
-      <text x="600" y="294">test</text>
-      <text x="850" y="294">predict</text>
-      <text x="1100" y="294" fill="#a78bfa">explain</text>
+      <text x="100" y="394">commit</text>
+      <text x="350" y="394">build</text>
+      <text x="600" y="394">test</text>
+      <text x="850" y="394">predict</text>
+      <text x="1100" y="394" fill="#a78bfa">explain</text>
     </g>
   </g>
 </svg>
